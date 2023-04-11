@@ -1,0 +1,9 @@
+1. Getting GitHub access ready.
+
+2. For Sonia: 
+   Clone the repositories.
+   Git Clone
+   Go through the calculator code.
+
+3. 
+Check if a string is a palindrome.
