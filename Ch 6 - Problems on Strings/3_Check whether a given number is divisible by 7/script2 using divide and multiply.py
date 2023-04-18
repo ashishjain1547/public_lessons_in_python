@@ -1,5 +1,8 @@
-n = 616
-quo = int(n/7)
+import math
+
+n = 48
+quo = math.floor(n/7) # int() was not explicit that we needed a floor value.
+
 if quo*7 == n:
     print("Divisible")
 else:

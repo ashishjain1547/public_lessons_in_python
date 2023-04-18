@@ -14,6 +14,7 @@ for i in name:
         print(i)
     cntr += 1
 
+
 print("----------")
 # STRING INDEXING
 print(name[1 : len(name) : 2]) # start index (0), end index (length - 1), step (1)
