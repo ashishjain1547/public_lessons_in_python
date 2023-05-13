@@ -48,5 +48,10 @@ Step 3: use the above two variables in formula to find the perimeter.
 
 #7
 Find the area of the equilateral triangle.
+Formula: 
+
+side = 5
+area = math.sqrt(3) * pow(side, 2) / 4
+print(area)
 """
 

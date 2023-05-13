@@ -43,3 +43,55 @@ What is the difference between append and extend?
 
 
 """
+
+# Solutions
+
+l = ['apple', 'banana', 'orange', 'kiwi', 'grapes']
+
+v = ['potato', 'tomato', 'onion', 'capsicum', 'beans']
+
+l.extend(v)
+
+print(l)
+
+l.append('brinjal')
+
+print(l)
+
+l.remove('capsicum')
+
+print(l)
+
+m = [i for i in l if not i.startswith('b')]
+
+print(m)
+
+l.remove('apple')
+l.remove('potato')
+
+print(l)
+
+l.pop(3)
+
+print(l)
+
+l.reverse()
+
+print(l)
+
+l.sort()
+
+print(l)
+
+l.clear()
+
+print(l)
+
+del l
+
+l = ['apple', 'banana', 'orange', 'kiwi', 'grapes']
+print('apple' in l)
+
+# 12: remove() takes the item value. pop() takes the item index.
+
+# 14: append() adds an element. extend() does the concatenation of two lists.
