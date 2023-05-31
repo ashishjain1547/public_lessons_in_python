@@ -9,3 +9,17 @@ mylist=[i for i in range(0,10)]
 print(mylist)
 print(max(mylist), min(mylist), sum(mylist), sum(mylist)/len(mylist))
 
+
+
+import random
+l = [random.randint(0, 100) for i in range(0, 10)]
+print(l)
+print(max(mylist), min(mylist), sum(mylist))
+
+import statistics
+print("Mean: ", statistics.mean(l))
+print("Median: ", statistics.median(l))
+print("Mode: ", statistics.mode(l))
+print("Stdev: ", statistics.stdev(l))
+print("Variance: ", statistics.variance(l))
+
