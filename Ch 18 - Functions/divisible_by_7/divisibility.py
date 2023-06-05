@@ -1,4 +1,4 @@
-def div7(x):
+def div_by_7(x):
     if x % 7 == 0:
         print("yes, it is divisible")
     else:
