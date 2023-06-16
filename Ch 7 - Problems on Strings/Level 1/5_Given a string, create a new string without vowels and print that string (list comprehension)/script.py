@@ -1,11 +1,12 @@
 x = ['a', 'e', 'i', 'o', 'u']
 y = input("please enter the word: ").lower()
+
 result=""
-print(range(len(y)))
+
 for i in range(len(y)):
     if y[i] not in x:
         result = result + y[i]
     else:
         print(y[i])
 
-print("\nAfter removing Vowels: ", result)
+print("After Removing Vowels: ", result)
